@@ -1,51 +1,30 @@
 🕹️ Arduino IDE Arcade Games
 
-A collection of interactive arcade-style games built on Arduino, featuring real hardware components, live scoring displays, and 3D-printed enclosures.
+As my very introduction to a true engineering task, this project allowed for a greater understanding of hardware, software, and project management. As the team lead for the project, a strategic development process was formed so that both projects could be tackled within the specific time frame.
 
 
-Overview
-This project brings classic arcade-game concepts to life using Arduino microcontrollers and physical electronics. Each game integrates sensors, LEDs, and LCD displays for real-time scoring and interactivity. Enclosures and mechanical components were 3D-printed and designed from scratch, and a stable power supply was engineered to support all components simultaneously.
-The project was presented to 50+ students and faculty as a live technical demonstration.
+##Overview
+This project consisted of two mini arcade games brought to life with Arduino (a mini hoop and an air hockey table). In both projects, ultrasonic sensors were utilized to track the motion of the puck/ball to determine whether or not a "goal" had occurred. Using the sensor readings, the LCD output display would be modified such that the current score was displayed. Each game integrates sensors, LEDs, and LCDs for real-time scoring and interactivity. 
 
-Tech Stack
-CategoryTools / ComponentsMicrocontrollerArduino UNOProgrammingC++, Arduino IDEDesign & SimulationTinkerCAD, Electrical SchematicsHardwareSensors, LEDs, LCD Displays, ButtonsFabrication3D Printing (PLA), Custom Enclosures
+A greater understanding of Arduino microcontrollers and physical electronics was developed, as well as overcoming team management struggles. Furthermore, a technical presentation was given to 50+ students and faculty to demonstrate the workings of the project and potential future modifications. 
 
-Games Included
-🎯 Game 1 — [Your Game Name Here]
+Initially, the team came together to decide on a project idea. From there, a schematic was produced and then tested using the simulation feature within Tinkercad. Once this was completed, various tasks were delegated to ensure the completion of the project. 
 
-Brief description of gameplay and hardware used (e.g., "Reflex-based button game using LEDs and a timer displayed on LCD")
 
-🎮 Game 2 — [Your Game Name Here]
 
-Brief description of gameplay and hardware used
 
-(Add or remove games as needed)
 
 Hardware Components
 
 Arduino UNO microcontroller
 16x2 LCD display (live score output)
-Various sensors (ultrasonic, IR, etc.)
+Ultrasonic sensors
 LEDs and resistors
 Push buttons
 Regulated power supply circuit
-3D-printed game enclosure (designed in TinkerCAD)
+3D-printed structural pieces (designed in Tinkercad)
 
 
-Project Structure
-arduino-arcade-games/
-├── game1/
-│   ├── game1.ino              # Arduino sketch for Game 1
-│   └── schematic_game1.png   # Wiring schematic
-├── game2/
-│   ├── game2.ino              # Arduino sketch for Game 2
-│   └── schematic_game2.png   # Wiring schematic
-├── cad/
-│   └── enclosure.stl          # 3D model for printed enclosure
-├── docs/
-│   └── presentation.pdf       # Technical presentation slides
-└── images/
-    └── demo.jpg               # Photo of final build
 
 Key Features
 
@@ -56,23 +35,11 @@ Power Supply Design — Engineered a stable power circuit to support all compone
 Technical Presentation — Demonstrated system design and functionality to a live audience of 50+ people
 
 
-How to Run
-
-Open the desired game folder (e.g., /game1)
-Open game1.ino in Arduino IDE
-Connect your Arduino UNO via USB
-Select the correct Board and Port under Tools
-Click Upload
-Wire components according to schematic_game1.png
-Power up and play!
-
 
 Project Status
 ✅ Completed — October 2024 – December 2024
 
-Media
 
-📷 Photos of the physical build and demo coming soon
 
 
 What I Learned
